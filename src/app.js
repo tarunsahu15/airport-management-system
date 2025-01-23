@@ -149,7 +149,8 @@ app.post("/login",(req,res)=>{
         }
     }
     else{
-        res.send("INVALID CREDENTIALS")
+           res.render("newhome")
+        // res.send("INVALID CREDENTIALS")
     }
 })
 
