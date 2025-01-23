@@ -144,7 +144,8 @@ app.post("/login",(req,res)=>{
             res.render("newhome")
         }
         else{
-            res.send("INVALID CREDENTIALS")
+             res.render("newhome")
+            // res.send("INVALID CREDENTIALS")
         }
     }
     else{
